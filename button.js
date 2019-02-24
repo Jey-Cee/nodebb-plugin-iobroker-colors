@@ -3,7 +3,7 @@ $('document').ready(function () {
 		var text, start, end;
 		composer.addButton('fa fa-eyedropper', function (textarea, selectionStart, selectionEnd) {
 			text = textarea;
-		});
+		}, 'Colorpicker');
 		$(document).on('click', '[data-format="eyedropper"]', function () {
 			$('.fa-eyedropper').ColorPicker({
 				onShow: function (el) {
