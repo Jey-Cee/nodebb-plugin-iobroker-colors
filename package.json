@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-plugin-mega-colors",
-  "version": "0.10.24",
+  "name": "nodebb-plugin-iobroker-colors",
+  "version": "0.10.25",
   "nbbpm": {
     "compatibility": "^0.7.1 || ^0.8.0 || ^0.9.0 || ^1.0.0"
   },
@@ -8,7 +8,7 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MegaGM/nodebb-plugin-mega-colors.git"
+    "url": "https://github.com/jey-cee/nodebb-plugin-iobroker-colors.git"
   },
   "keywords": [
     "nodebb",
@@ -16,11 +16,11 @@
   ],
   "license": "MIT",
   "dependencies": {},
-  "homepage": "https://github.com/MegaGM/nodebb-plugin-mega-colors",
+  "homepage": "https://github.com/jey-cee/nodebb-plugin-iobroker-colors",
   "maintainers": [
     {
-      "name": "Mega",
-      "email": "daxaka.msk@gmail.com"
+      "name": "jey-cee",
+      "email": "jey-cee@live.com"
     }
   ],
   "directories": {}
