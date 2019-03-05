@@ -5,6 +5,7 @@
 	"url": "https://github.com/jey-cee/nodebb-plugin-iobroker-colors",
 	"library": "./library.js",
 	"staticDirs": {
+		"public": "./lib/colorpicker",
 		"images": "lib/colorpicker/images"
 	},
 	"hooks": [
