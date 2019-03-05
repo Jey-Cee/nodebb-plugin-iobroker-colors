@@ -4,14 +4,15 @@
 	"description": "NodeBB Plugin that allows users to use colors in their posts.",
 	"url": "https://github.com/jey-cee/nodebb-plugin-iobroker-colors",
 	"library": "./library.js",
-	"staticDirs": {
-		"static": "./static"
-	},
 	"hooks": [
+		{ "hook": "static:app.load", "method": "init"},
 		{ "hook": "filter:parse.post", "method": "parse" },
 		{ "hook": "filter:parse.signature", "method": "parse" },
 		{ "hook": "filter:parse.raw", "method": "parse" }
 	],
+	"staticDirs": {
+		"static": "./static"
+	},
 	"less": [
 		"lib/colorpicker/css/colorpicker.less"
 	],
